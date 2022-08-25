@@ -1,6 +1,8 @@
 var  express = require("express")
+var moragan= require('morgan')
 var multer= require('multer')
 var app= express()
+app.use(moragan('tiny'))
 console.log(multer)
 
 
